@@ -100,7 +100,7 @@
                 localStorage.setItem("username", u);
                 localStorage.setItem("room", r);
                 localStorage.setItem("token", t);
-                window.location.href = "chat.html";
+                window.location.href = "./chat.html";
             });
 
             socket.once("warningMsg", msg => {
@@ -110,5 +110,6 @@
     </script>
 
 </body>
+
 
 </html>
